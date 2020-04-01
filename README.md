@@ -68,7 +68,7 @@ This is a Node/Express/MongoDB REST API for contacts that uses JWT authenticatio
 
   - Headers
 
-        x-auth-token: YOURJWT
+        x-access-token: YOURJWT
 
 * Response: 200 (application/json)
 
@@ -84,7 +84,7 @@ This is a Node/Express/MongoDB REST API for contacts that uses JWT authenticatio
 
   - Headers
 
-        x-auth-token: YOURJWT
+        x-access-token: YOURJWT
         Content-type: application/json
 
   - Body
@@ -114,7 +114,7 @@ This is a Node/Express/MongoDB REST API for contacts that uses JWT authenticatio
 
   - Headers
 
-        x-auth-token: YOURJWT
+        x-access-token: YOURJWT
         Content-type: application/json
 
   - Body
@@ -144,7 +144,7 @@ This is a Node/Express/MongoDB REST API for contacts that uses JWT authenticatio
 
   - Headers
 
-        x-auth-token: YOURJWT
+        x-access-token: YOURJWT
 
 * Response: 200 (application/json)
 
